@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to bottom, rgb(0, 72, 255),rgb(141, 205, 141));
+    padding: 100px;
+}
+
+#card{
+    width: 70%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+#titulo{
+text-align: center;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 60px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 25px;
+    width: 70%;
+}
+#regras{
+    background-color: rgba(127, 255, 212, 0.771);
+    width: 70%;
+    margin-left: 60px;
+}
+#botao{
+background-color: brown;
+margin-left: 60px;
+padding: 15px;
+color: aliceblue;
+font-size: larger;
+}
